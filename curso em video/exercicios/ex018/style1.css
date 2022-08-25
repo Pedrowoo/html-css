@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: nome da fonte;
+    src: url('o nome da fonte.otf') format('opentype'), url('outro ngc.ttf') format(tryetype);
+    font-weight: normal;
+    font-size: normal;
+
+    /*tipos de formato
+        opentype (otf)
+        truetype (ttf)
+        embeedded-opentype
+        svg
+        truetype-aat(Apple Advanced Typography)*/
+
+}
+
+body{
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: serif;
+}

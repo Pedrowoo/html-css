@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'work-sans', sans-serif;
+    /* meiddas absolutas
+        cm, mm, in, px(usar), pt, pc
+
+        medidas relativas
+        em(usar), ex, rem, vw, vh, %
+        16px geralmente é = 1em*/
+    font-size: 1em;
+    font-weight: 500;
+    /*lighter, normal, bold, bolder*/
+    font-style: normal;
+    text-decoration: underline;
+}
+
+h1,h2{
+    /* shorthand font
+    font-style > font-weight > font-size > font-family
+    
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    font-size: 2em;
+    */
+    font: italic lighter 1.5em 'Gill';
+}

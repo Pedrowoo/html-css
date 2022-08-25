@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(to right, blue, red);
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        h1{
+            padding: 10px;
+            box-shadow: inset 3px 3px 10px rgba(0, 0, 0, 0.767);
+        }
+        nav{
+            background-color: gray;
+            padding: 3px;
+            /*box-shadow: deslocamento vertical, deslocamento horizontal espalhamento, cor sombra*/
+            box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.637);
+        }
+        nav > a{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+            margin: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: red;
+        }
+        article{
+            background-color: lightblue;
+            padding: 10px;
+        }
+        article > aside{
+            background-color: rgb(25, 102, 102);
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.596);
+        }
+        footer > p{
+            margin: 0;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        #sla{
+            text-decoration: none;
+            color: white;
+        }
+        #sla:hover{
+            text-decoration: underline;
+            color: blue;
+        }
+        #bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px auto 10px auto;
+            background-color: white;
+            border-radius: 50px;
+            /* 
+                Border-image-source: url('');
+                border-image-slice: 27;
+                border-image-repeat: repeat;
+                
+                shorthand
+                border-image: url('') 27 repeat;
+                */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos ">
+            <article>
+                <p>ESPORTES RADICAIS OMG</p>
+            </article>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Isso ae</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam minus explicabo placeat deleniti accusamus voluptates autem officia, perferendis enim quae ipsa architecto in culpa, ratione repellat obcaecati cumque eveniet est?</p>
+                <aside>
+                    <p>Artigo escrito por pedro</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo <a id='sla' href="https://www.facebook.com" target="_blank">pedro o grande</a></p>
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>
