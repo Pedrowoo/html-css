@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>frame</title>
+    <style>
+        iframe{
+            width: 95vw;
+            height: 400px;
+            border: 5px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>pagina</h1>
+    <ul>
+        <li><a href="pag/pag1.html" target="frame">Paguna 1</a></li>
+        <li><a href="pag/pag2.html" target="frame">Paguna 2</a></li>
+        <li><a href="pag/pag3.html" target="frame">Paguna 3</a></li>
+    </ul>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At eos hic facere nihil eum nostrum error fugiat magnam et consequuntur!</p>
+    <iframe src="" name="frame" srcdoc="
+            <style>
+                body{
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+        
+                table{
+                    border-collapse: collapse;
+                    width: 500px;
+                }
+        
+                td,th{
+                    border: 1px solid black;
+                    padding: 10px;
+                }
+            </style>
+            <h1>tabela grupos</h1>
+            <table>
+                <tr>
+                    <th >Grupo</th>
+                    <th >Nomes</th>
+                    <th >Filmes</th>
+                </tr>
+                <tr>
+                    <th >Mulheres</th>
+                    <td>Ana maria</td>
+                    <td>Alien</td>
+                    <td>Rambo</td>
+                    <td>Vingadores</td>
+                </tr>
+                <tr>
+                    <td>Beatriz</td>
+                    <td>Hulk</td>
+                    <td>Inception</td>
+                    <td>Batman</td>
+                </tr>
+                <tr>
+                    <td>Claudia</td>
+                    <td>Oblivion</td>
+                    <td>Matrix</td>
+                    <td>Big hero</td>
+                </tr>
+                <tr>
+                    <th >Homens</th>
+                    <td>Bruno</td>
+                    <td>Intocaveis</td>
+                    <td>Amnesia</td>
+                    <td>Gladiador</td>
+                </tr>
+                <tr>
+                    <td>Daniel</td>
+                    <td>Wall-E</td>
+                    <td>Oldboy</td>
+                    <td>Dnagal</td>
+                </tr>
+                <tr>
+                    <td>Fabiano</td>
+                    <td>Star wars</td>
+                    <td>Taxi driver</td>
+                    <td>Toy story</td>
+                </tr>
+            </table>"></iframe>
+</body>
+</html>
