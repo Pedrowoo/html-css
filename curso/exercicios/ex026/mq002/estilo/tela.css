@@ -1,1 +1,21 @@
 @charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(30, 30, 180);
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+
+h1{
+    color: white;
+    text-shadow: 2px 3px 0px blue;
+    padding: 30px;
+}
