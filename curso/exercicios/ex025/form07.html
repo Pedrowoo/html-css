@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pt-br</title>
+</head>
+<body>
+    <h1>exemplo de formulario</h1>
+    <form action="ieojf.php" method="post">
+        <p>
+            <label for="iestado">Estado</label>
+            <select name="regiao" id="iestado">
+                <optgroup label="suldeste">
+                    <option value="mg">minas gerais</option>
+                    <option value="rj" selected>rio de janeiro</option>
+                    <option value="sp">sao paulo</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="ilist">Profisao</label>
+            <input type="text" name="lista" id="ilist" list="prof">
+            <datalist id="prof">
+                <option>OTARIO</option>
+                <option value="ss">SSSSSS</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="ia">AAAAAAAA</label><br>
+            <textarea name="text" id="ia" cols="10" rows="2"></textarea>
+        </p>
+        <input type="submit" value="EEEEEE">
+    </form>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fomre</title>
+</head>
+<body>
+    <h1>fomre</h1>
+    <form action="aaaa.php">
+        <p>
+            <label for="n1">number</label>
+            <input type="number" name="number" id="n1" required oninput="res.innerHTML = Number(n1.value) + Number(n2.value)">
+        </p>
+        <p>
+            <label for="n2">number2</label>
+            <input type="number" name="number" id="n2" required
+            oninput="res.innerHTML = Number(n1.value) + Number(n2.value)">
+        </p>
+        <p>
+            <label for="res">resultado</label>
+            <output name="soma" id="res">0</output>
+        </p>
+        <input type="submit" value="EEEEEE">
+        <input type="reset" value="EEEEEEEEEE">
+    </form>
+</body>
+</html>
